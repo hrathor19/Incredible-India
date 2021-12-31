@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(59, 117, 204, 0.301);
+}
+hr{
+    border-color: rgba(59, 117, 204, 0.301);
+}
+.navbar{
+    background-color: rgb(59, 117, 204);
+    height: 50px;
+    box-shadow: 0px 3px 10px black;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-left{
+    align-items: center;
+    display: inline-flex;
+    width: 60%;
+}
+ul{
+    display: inline-block;
+}
+.active{
+    display: inline-flex;
+}
+.active li a{
+    color: rgb(0, 34, 78);
+    font-weight: 900;
+    text-shadow: 1px 1px 10px black;
+    font-size: large;
+}
+li {
+    display: inline-flex;
+    list-style: none;
+    padding: 14px;
+    margin-left: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: azure;
+}
+.nav-left ul li:hover{
+    box-shadow: 3px 1px 10px black;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 5px;
+}
+.nav-right{
+    display: inline-flex;
+    justify-content: end;
+    width: 39%;
+}
+.search input{
+    height: 25px;
+    width: 235px;
+    margin-right: 5px;
+    border: 2px groove rgb(59, 117, 204);
+    border-radius: 5px;
+}
+.but input{
+    width: 45px;
+    height: 25px;
+    margin-top: 2px;
+}
+.progress-bar{
+    background-color: rgba(175, 207, 255, 0.705);
+    height: 3px;
+    animation: loading 2s ease-in-out 1;
+}
+
+/* tricolor */
+
+.kesari{
+    height: 8vh;
+    background-color: orange;
+    animation: tricolor 2s ease-in-out infinite alternate-reverse;
+}
+.kesari:hover{
+    box-shadow: 3px 0px 10px orange;
+}
+.white{
+    background-color: white;
+    height: 8vh;
+    text-align: center;
+}
+.white:hover{
+    box-shadow: 10px 1px 10px white;
+}
+.white img{
+    margin-top: 0.3vh;
+    height: 7.5vh;
+    box-shadow: 5px 1px 10px black;
+    border-radius: 50%;
+}
+.green{
+    display: inline;
+    float: right;
+    height: 8vh;
+    background-color: green;
+    animation: tricolor 2s ease-in-out infinite alternate-reverse;
+}
+.green:hover{
+    box-shadow: -3px 0px 10px green;
+}
+
+/* Home */
+
+
+.images{
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 3pX 1px 10px black;
+}
+.images :hover{
+    opacity: 80%;
+}
+.images img{
+    width: 33%; 
+    box-shadow: 3pX 1px 10px black;   
+}
+.data1{
+    padding: 25px;
+    box-shadow: 3px 1px 10px rgb(59, 117, 204);
+    overflow: hidden;
+}
+.heading1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Pushster', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.heading1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.paragraph1{
+    margin-top: 10px;
+    width: 65%;
+    float: left;
+    font-size: 1.2vw;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.image1{
+    width: 29%;
+    box-shadow: 3px 1px 10px black;
+    border-radius: 5px;
+    overflow: hidden;
+    float: right;
+    background-size: cover;
+    position: relative;
+}
+.image1 :hover{
+    opacity: 80%;
+}
+.image1 img{
+    width: 100%;
+    position: relative;
+}
+.data2{
+    padding: 25px;
+    box-shadow: 3px 1px 10px rgb(59, 117, 204);
+    overflow: hidden;
+}
+.heading2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Pushster', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.heading2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.paragraph2{
+    margin-top: 10px;
+    width: 65%;
+    float: right;
+    text-align: left;
+    font-size: 1.2vw;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.image2{
+    width: 29%;
+    box-shadow: 3px 1px 10px black;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+    background-size: contain;
+}
+.image2 :hover{
+    opacity: 80%;
+}
+.image2 img{
+    width: 100%;
+}
+footer{
+    margin-top: 5px;
+    background-color: rgb(59, 117, 204);
+    padding: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 1vw;
+}
+footer hr{
+    border: 1px none none none; 
+    border-color: rgb(15, 31, 24);
+    border-style: outset;
+}
+.social img{
+    width: 1.3vw;
+    padding: 0.5vw;
+    margin-top: 3px;
+}
+footer hr{
+    width: 10vw;
+    height: 0.1vw;
+    border-radius: 100%;
+    border-color: white;
+}
+
+/* videos */
+
+
+.video1{
+    display: inline;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Pushster', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.video1 h1{
+    padding: 10px;
+    display:inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(76, 76, 175);
+    margin: 10px 0px;
+    font-size: 2.5vw;
+}
+
+/* About */
+
+
+.about h1{
+    text-shadow: 3px 1px 5px black;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Pushster', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0px;
+    font-size: 2.5vw;
+}
+.about p{
+    font-size: 1.2vw;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    border-radius: 25px;
+}
+.lorem p{
+    margin: 20px;
+    box-shadow: 3px 1px 10px rgb(76, 76, 175);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* contact */
+
+
+.connect{
+    box-shadow: 3px 1px 10px rgb(76, 76, 175);
+    padding: 25px 0px;
+    margin: 25px;
+    background-image: url(/images/bgcontact2.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.contact h1{
+    text-shadow: 3px 1px 5px black;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Pushster', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0px;
+    font-size: 2.5vw;
+}
+.connect p{
+    margin-top: 15px;
+}
+.connect input{
+    height: 30px;
+    width: 25vw;
+    border-radius: 5px;
+    background-color: rgb(233, 236, 241);
+    box-shadow: 3px 1px 10px rgb(41, 62, 255);
+    border-style: groove;
+    font-size: 10px;
+}
+.btn input{
+    width: 25vw;
+    background-color: rgb(248, 251, 255);
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(59, 117, 204);
+    margin-top: 25px;
+    font-size: medium;
+}
+textarea{
+    width: 35vw;
+    height: 20vw;
+    box-shadow: 5px 1px 10px rgb(76, 76, 175);;
+}
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 807px){
+    .nav-right{
+        display: none;
+    }
+    .nav-left{
+        width: 100%;
+        justify-content: center;
+    } 
+    .navbar{
+        background-color: rgb(59, 117, 204);
+        height: 30px;
+        box-shadow: 0px 3px 10px black;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    li {
+        padding: 4px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .images img{
+        width: 30%;    
+    }
+    .connect input{
+        height: 30px;
+        width: 30vw;
+        border-radius: 5px;
+        background-color: rgb(233, 236, 241);
+        box-shadow: 3px 1px 10px rgb(41, 62, 255);
+        border-style: groove;
+    }
+    li a{
+        font-size: small;
+        size: 5px;
+        text-size-adjust: 5px;
+    }
+    .video1 iframe{
+        width: 90px;
+        height: 75px;
+    }
+    .kesari{
+        height: 5vh;
+    }
+    .white{
+        height: 5vh;
+    }
+    .white img{
+        margin-top: 0.25vh;
+        height: 4.5vh;
+
+    }
+    .green{
+        height: 5vh;
+    }
+}
+
+
+/* Animations */
+
+
+@keyframes loading{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 60vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+
+@keyframes tricolor{
+    0%{
+        width: 75vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
