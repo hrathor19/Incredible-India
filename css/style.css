@@ -83,7 +83,7 @@ li a{
 .kesari{
     height: 8vh;
     background-color: orange;
-    animation: tricolor 2s ease-in-out infinite alternate-reverse;
+    animation: tricolor 3s ease-in-out infinite alternate-reverse;
 }
 .kesari:hover{
     box-shadow: 3px 0px 10px orange;
@@ -107,7 +107,7 @@ li a{
     float: right;
     height: 8vh;
     background-color: green;
-    animation: tricolor 2s ease-in-out infinite alternate-reverse;
+    animation: tricolor 3s ease-in-out infinite alternate-reverse;
 }
 .green:hover{
     box-shadow: -3px 0px 10px green;
