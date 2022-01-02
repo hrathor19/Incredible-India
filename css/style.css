@@ -69,6 +69,11 @@ li a{
     height: 3px;
     animation: loading 4s ease-in-out 1;
 }
+.progress-bar-video{
+    background-color: rgba(175, 207, 255, 0.705);
+    height: 3px;
+    animation: loading 12s ease-in-out 1;
+}
 
 /* tricolor */
 .flag{
