@@ -123,6 +123,11 @@ li a{
     font-size: 5vw;
     color: rgb(59, 117, 204);
 }
+h3{
+    font-size:xx-large;
+    margin: 10px 0px;
+    color: rgb(15, 75, 165);
+}
 .images{
     display: inline-block;
     margin-top: 5px;
